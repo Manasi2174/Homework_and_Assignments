@@ -22,15 +22,12 @@ class Student:
         print(f"Percentage of student = {self.calc_Percentage():.2f}%")
 
 s1=Student("Arnav",101,{"Eng":56,"Maths":85,"Science":78,"Hindi":65})
-s1.calc_Percentage()
 s1.display_info()
 print("<-------------------------------------------->")
 s2=Student("Shruti",102,{"Eng":90,"Maths":95,"Science":88,"Hindi":75})
-s2.calc_Percentage()
 s2.display_info()
 print("<-------------------------------------------->")
 s3=Student("Manasi",103,{"Eng":98,"Maths":75,"Science":80,"Hindi":67})
-s3.calc_Percentage()
 s3.display_info()
 
 
