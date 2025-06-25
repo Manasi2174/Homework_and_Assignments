@@ -25,3 +25,10 @@ def add_Three(x,y,z):
 # calling the function to add three numbers
 a,b,c=map(int,input("Enter 3 numbers : ").split())
 add_Three(a,b,c)
+
+
+# <-------OUTPUT-------->
+# Enter 3 numbers : 10 20 5
+# <-----Starting addition of three numbers----->
+# The sum of 10,20 and 5 is = 35
+# <-----Finished the addtition of numbers------>
